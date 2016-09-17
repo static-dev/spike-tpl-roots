@@ -14,7 +14,7 @@
     "coffee-script": "^1.10.0",
     "hard-source-webpack-plugin": "0.0.38",<% if (production) { %>
     "image-webpack-loader": "^2.0.0",<% } %>
-    "jade-static-loader": "^0.2.0",
+    "jade-static-loader": "^0.3.0",
     "jstransformer-marked": "^1.0.1",
     "marked": "^0.3.6",
     "rupture": "^0.6.1",
