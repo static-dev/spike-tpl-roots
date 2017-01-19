@@ -40,7 +40,4 @@ If the `spike new` default template for use within [spike](https://github.com/st
 	? What is your github username? 
 	? Would you like a production config file? (Y/n)
 
-- `cd <projectname>`
-- `npm install`
-- `spike watch`
 
