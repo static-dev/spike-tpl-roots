@@ -12,15 +12,7 @@ If the `spike new` default template for use within [spike](https://github.com/st
 
 - `spike tpl add roots https://github.com/static-dev/spike-tpl-roots.git`
 - `cd <projectpath>`
-- `spike new <projectname> -t roots`
-
-##### Options
-
-	? What is the name of your project? 
-	? Describe your project 
-	? What is your github username? 
-	? Would you like a production config file? (y/n)
-	
+- `spike new <projectname> -t roots`	
 - `cd <projectname>`
 - `spike watch`
 
@@ -32,15 +24,14 @@ If the `spike new` default template for use within [spike](https://github.com/st
 - `sprout add spike-tpl-roots https://github.com/static-dev/spike-tpl-roots.git`
 - `cd <projectpath>`
 - `sprout new spike-tpl-roots <projectname>`
-
-##### Options
-
-	? What is the name of your project? 
-	? Describe your project 
-	? What is your github username? 
-	? Would you like a production config file? (Y/n)
-
 - `cd <projectname>`
 - `npm install`
 - `spike watch`
 
+##### Install options for Spike & Sprout
+
+	? What is the name of your project? 
+	? Describe your project 
+	? What is your github username? 
+	? Would you like a production config file? (y/n)
+	
