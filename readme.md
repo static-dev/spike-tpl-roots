@@ -28,10 +28,5 @@ If the `spike new` default template for use within [spike](https://github.com/st
 - `npm install`
 - `spike watch`
 
-##### Install options for Spike & Sprout
 
-	? What is the name of your project? 
-	? Describe your project 
-	? What is your github username? 
-	? Would you like a production config file? (y/n)
 	
