@@ -8,27 +8,25 @@
   },
   "bugs": "https://github.com/<%= github_username %>/<%= S(name).slugify().value() %>/issues",
   "dependencies": {
-    "axis": "^0.6.1",
-    "autoprefixer-stylus": "^0.10.0",
+    "autoprefixer-stylus": "^0.13.0",
+    "axis": "^1.0.0",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.10.0",
-    "hard-source-webpack-plugin": "0.0.38",<% if (production) { %>
-    "image-webpack-loader": "^2.0.0",<% } %>
-    "jade-static-loader": "^0.3.0",
     "jstransformer-marked": "^1.0.1",
     "marked": "^0.3.6",
+    "pug-static-loader": "^1.0.1",
     "rupture": "^0.6.1",
-    "spike-page-id": "^0.1.0",
+    "source-loader": "^0.2.0",
+    "spike-page-id": "^1.0.0",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.3.1"<% if (production) { %>,
-    "webpack": "^1.13.1"<% } %>
+    "stylus-loader": "^3.0.1"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.19.0",
     "rimraf": "^2.5.4",
-    "snazzy": "^4.0.1",
-    "spike-core": "^0.11.2",
-    "standard": "^8.0.0"
+    "snazzy": "^7.0.0",
+    "spike-core": "^1.0.0",
+    "standard": "^10.0.1"
   },
   "homepage": "https://github.com/<%= github_username %>/<%= S(name).slugify().value() %>",
   "main": "app.js",
